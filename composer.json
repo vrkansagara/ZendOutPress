@@ -22,8 +22,6 @@
     "issues": "https://github.com/vrkansagara/ZendOutPress/issues",
     "source": "https://github.com/vrkansagara/ZendOutPress"
   },
-  "minimum-stability": "stable",
-  "prefer-stable": true,
   "require": {
     "php": ">=7.0",
     "zendframework/zend-mvc": "^3.1"
