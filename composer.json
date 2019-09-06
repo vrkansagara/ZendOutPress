@@ -17,20 +17,25 @@
       "homepage": "https://vrkansagara.in/"
     }
   ],
-  "require": {
-    "php": ">=7.0",
-    "zendframework/zend-mvc": "^3.1"
-  },
-  "autoload": {
-    "psr-4": {
-      "Vrkansagara\\ZendOutPress\\": "src/"
-    }
-  },
   "support": {
     "email": "vrkansagara@gmail.com",
     "issues": "https://github.com/vrkansagara/ZendOutPress/issues",
     "source": "https://github.com/vrkansagara/ZendOutPress"
   },
   "minimum-stability": "stable",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "require": {
+    "php": ">=7.0",
+    "zendframework/zend-mvc": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZendOutPress\\": "src/"
+    }
+  },
+  "extra": {
+    "zf": {
+      "module": "ZendOutPress"
+    }
+  }
 }
