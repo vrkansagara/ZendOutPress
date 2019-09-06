@@ -31,6 +31,6 @@
     "issues": "https://github.com/vrkansagara/ZendOutPress/issues",
     "source": "https://github.com/vrkansagara/ZendOutPress"
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true
 }
